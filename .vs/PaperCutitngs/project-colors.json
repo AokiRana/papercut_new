@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "600fb4b5-d4d8-45d0-a003-218dcccac4c1": {
+      "ProjectGuid": "600fb4b5-d4d8-45d0-a003-218dcccac4c1",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 0
+    },
+    "db2da9d9-5545-b452-50a4-712d0d2bb06b": {
+      "ProjectGuid": "db2da9d9-5545-b452-50a4-712d0d2bb06b",
+      "DisplayName": "UnityEngine.UI",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "68f9f945-52c8-64e5-8ebf-c4141055ac3e": {
+      "ProjectGuid": "68f9f945-52c8-64e5-8ebf-c4141055ac3e",
+      "DisplayName": "Unity.2D.IK.Runtime",
+      "ColorIndex": 2
+    },
+    "0d8e3606-1d5d-1d05-ef23-16a760049207": {
+      "ProjectGuid": "0d8e3606-1d5d-1d05-ef23-16a760049207",
+      "DisplayName": "spine-unity",
+      "ColorIndex": 3
+    },
+    "ceb45676-7cb2-28b0-9bcf-cc667e6c0368": {
+      "ProjectGuid": "ceb45676-7cb2-28b0-9bcf-cc667e6c0368",
+      "DisplayName": "Cinemachine",
+      "ColorIndex": 4
+    },
+    "b31f1676-c4f6-a4fc-756b-de499ce3ee64": {
+      "ProjectGuid": "b31f1676-c4f6-a4fc-756b-de499ce3ee64",
+      "DisplayName": "com.unity.cinemachine.editor",
+      "ColorIndex": 5
+    },
+    "bd310636-b1ea-63e2-111d-27850ca7d8cd": {
+      "ProjectGuid": "bd310636-b1ea-63e2-111d-27850ca7d8cd",
+      "DisplayName": "PathCreator",
+      "ColorIndex": 6
+    },
+    "4ca723d6-1491-4402-bf2f-329f1744dba2": {
+      "ProjectGuid": "4ca723d6-1491-4402-bf2f-329f1744dba2",
+      "DisplayName": "PathCreatorEditor",
+      "ColorIndex": 7
+    },
+    "5cbf0c79-d2ef-6d50-d079-c1a5f05c09ff": {
+      "ProjectGuid": "5cbf0c79-d2ef-6d50-d079-c1a5f05c09ff",
+      "DisplayName": "Assembly-CSharp.Player",
+      "ColorIndex": 8
+    },
+    "7bf9683d-289a-2225-d80b-7b5b0229e3f2": {
+      "ProjectGuid": "7bf9683d-289a-2225-d80b-7b5b0229e3f2",
+      "DisplayName": "Assembly-CSharp-Editor",
+      "ColorIndex": 9
+    },
+    "be9ea889-b879-ff24-c4ea-2a5716255f93": {
+      "ProjectGuid": "be9ea889-b879-ff24-c4ea-2a5716255f93",
+      "DisplayName": "spine-unity-editor",
+      "ColorIndex": 10
+    },
+    "d3cf114c-e353-a264-c200-15f9cc9d6496": {
+      "ProjectGuid": "d3cf114c-e353-a264-c200-15f9cc9d6496",
+      "DisplayName": "spine-timeline",
+      "ColorIndex": 11
+    },
+    "6a54034b-b1c8-b2dd-2da0-27bc96f2d519": {
+      "ProjectGuid": "6a54034b-b1c8-b2dd-2da0-27bc96f2d519",
+      "DisplayName": "Unity.Timeline.Editor",
+      "ColorIndex": 12
+    },
+    "caa0b002-b917-4fe1-3cf5-c33f28b26e49": {
+      "ProjectGuid": "caa0b002-b917-4fe1-3cf5-c33f28b26e49",
+      "DisplayName": "Unity.CollabProxy.Editor",
+      "ColorIndex": 13
+    }
+  },
+  "NextColorIndex": 14
+}
