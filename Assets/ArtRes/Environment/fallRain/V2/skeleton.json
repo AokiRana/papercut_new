@@ -1,0 +1,50 @@
+{
+"skeleton": {
+	"hash": "OfrI0vZFowKj6kEnGNUYi+766FM",
+	"spine": "3.8",
+	"x": -87,
+	"y": -115.5,
+	"width": 174,
+	"height": 916,
+	"images": "../../PSD/images/tool/雨/下落雨滴/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "下坠雨滴", "parent": "root" },
+	{ "name": "下坠雨滴3", "parent": "下坠雨滴", "length": 481.35, "rotation": 89.55, "x": -17.86, "y": 21.62 }
+],
+"slots": [
+	{ "name": "raindrop", "bone": "下坠雨滴3", "attachment": "raindrop" }
+],
+"skins": [
+	{
+		"name": "clean",
+		"attachments": {
+			"raindrop": {
+				"raindrop": { "name": "下坠雨滴", "x": 321.01, "y": -15.32, "rotation": -89.55, "width": 144, "height": 832 }
+			}
+		}
+	},
+	{
+		"name": "dim",
+		"attachments": {
+			"raindrop": {
+				"raindrop": { "name": "下坠雨滴_模糊", "x": 321.01, "y": -15.32, "rotation": -89.55, "width": 174, "height": 916 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"下坠雨滴3": {
+				"translate": [
+					{ "x": 19.5, "y": 847.49, "curve": 0, "c2": 1, "c3": 0.407, "c4": 0.99 },
+					{ "time": 0.8333, "x": 19.5, "y": -192.09 }
+				]
+			}
+		}
+	}
+}
+}

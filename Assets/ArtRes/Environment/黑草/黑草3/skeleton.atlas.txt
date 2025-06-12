@@ -1,0 +1,13 @@
+
+skeleton.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+黑草3
+  rotate: false
+  xy: 0, 0
+  size: 89, 245
+  orig: 89, 245
+  offset: 0, 0
+  index: -1

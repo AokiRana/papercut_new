@@ -1,0 +1,91 @@
+{
+"skeleton": {
+	"hash": "Kg8q9Is5/g0/StQwcMxCj/27Ayg",
+	"spine": "3.8",
+	"x": -141.46,
+	"y": -177.2,
+	"width": 278.53,
+	"height": 396.66,
+	"images": "../../../PSD/images/UI加载界面/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 232.38, "rotation": 89.58, "x": -3.07, "y": -2.39 },
+	{ "name": "剪刀1", "parent": "bone", "length": 210.65, "rotation": 11.23, "x": 2.41, "y": -3.06 },
+	{
+		"name": "剪刀2",
+		"parent": "bone",
+		"length": 210.65,
+		"rotation": 170.76,
+		"x": 2.41,
+		"y": -3.06,
+		"scaleX": -1
+	}
+],
+"slots": [
+	{ "name": "剪刀1", "bone": "剪刀1", "attachment": "剪刀1" },
+	{ "name": "剪刀2", "bone": "剪刀2", "attachment": "剪刀1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"剪刀1": {
+				"剪刀1": { "x": 13.28, "y": -47.91, "rotation": -100.82, "width": 185, "height": 393 }
+			},
+			"剪刀2": {
+				"剪刀1": { "x": 13.28, "y": -47.91, "rotation": -100.82, "width": 185, "height": 393 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"bones": {
+			"剪刀1": {
+				"rotate": [
+					{ "angle": -0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": 14.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "angle": -0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": 14.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "angle": -0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "angle": 14.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "angle": -0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.3333, "angle": 14.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667, "angle": -0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3, "angle": 14.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.3333, "angle": -0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.6667, "angle": 14.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "angle": -0.2 }
+				]
+			},
+			"剪刀2": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -17.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": -17.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "angle": -17.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.3333, "angle": -17.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3, "angle": -17.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.3333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.6667, "angle": -17.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 1.3333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "angle": -178.41 },
+					{ "time": 3.6667, "angle": 178.86, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4 }
+				]
+			}
+		}
+	}
+}
+}

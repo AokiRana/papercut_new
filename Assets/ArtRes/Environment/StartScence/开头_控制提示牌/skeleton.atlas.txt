@@ -1,0 +1,20 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+开头_操作提示/RC+A
+  rotate: false
+  xy: 0, 614
+  size: 658, 612
+  orig: 658, 612
+  offset: 0, 0
+  index: -1
+开头_操作提示/RC+D
+  rotate: false
+  xy: 0, 0
+  size: 658, 612
+  orig: 658, 612
+  offset: 0, 0
+  index: -1

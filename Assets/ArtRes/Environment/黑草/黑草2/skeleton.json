@@ -1,0 +1,42 @@
+{
+"skeleton": {
+	"hash": "YlkwUqw4ad6JyJJ6ZUoWifJVCLo",
+	"spine": "3.8",
+	"x": -90.5,
+	"y": -3.5,
+	"width": 121,
+	"height": 545,
+	"images": "D:/PaperCuttings/PSD/images/黑草",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "黑草2", "parent": "root", "length": 326, "rotation": 90, "x": -2, "y": 46 }
+],
+"slots": [
+	{ "name": "黑草2", "bone": "黑草2", "attachment": "黑草2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"黑草2": {
+				"黑草2": { "x": 223, "y": 28, "rotation": -90, "width": 121, "height": 545 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"黑草2": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": -10.67, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

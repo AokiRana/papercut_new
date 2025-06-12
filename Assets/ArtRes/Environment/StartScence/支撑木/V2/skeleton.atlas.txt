@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+支撑木
+  rotate: false
+  xy: 0, 944
+  size: 695, 294
+  orig: 695, 294
+  offset: 0, 0
+  index: -1
+新支撑木/支撑木
+  rotate: false
+  xy: 0, 648
+  size: 695, 294
+  orig: 695, 294
+  offset: 0, 0
+  index: -1
+新支撑木/支撑木_碎片1
+  rotate: false
+  xy: 993, 651
+  size: 225, 292
+  orig: 226, 292
+  offset: 1, 0
+  index: -1
+新支撑木/支撑木_碎片2
+  rotate: true
+  xy: 697, 638
+  size: 262, 294
+  orig: 264, 294
+  offset: 1, 0
+  index: -1
+新支撑木/支撑木_碎片3
+  rotate: false
+  xy: 993, 945
+  size: 245, 293
+  orig: 247, 293
+  offset: 1, 0
+  index: -1
+新支撑木/支撑木_碎片4
+  rotate: true
+  xy: 697, 902
+  size: 336, 294
+  orig: 337, 294
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+{
+"skeleton": {
+	"hash": "16AWzcSwJikAscYUixLHnAbbTcw",
+	"spine": "3.8",
+	"x": -272,
+	"y": -624,
+	"width": 848,
+	"height": 1104,
+	"images": "../../PSD/images/雨屋/帘子/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 638.58, "rotation": -84.63, "x": 86.81, "y": 347.54 }
+],
+"slots": [
+	{ "name": "帘子1", "bone": "bone", "attachment": "帘子1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"帘子1": {
+				"帘子1": { "x": 423.79, "y": 25.64, "rotation": 84.63, "width": 848, "height": 1104 }
+			}
+		}
+	}
+],
+"animations": {
+	"move": {
+		"bones": {
+			"bone": {
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": 1304.14 }
+				]
+			}
+		}
+	}
+}
+}

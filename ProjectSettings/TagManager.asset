@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PaperScrap
+  - rainBubble
+  - ground
+  - ScissorFly
+  - DryerAccessories
+  - butterflyUp
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Platforms
+  - OneWayPlatforms
+  - Ladder
+  - Background
+  - Pushables
+  - OneWayMovingPlatform
+  - MovingPlatform
+  - Umbrella
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: back
+    uniqueID: 236914063
+    locked: 0
+  - name: mid
+    uniqueID: 1161374467
+    locked: 0
+  - name: fornt
+    uniqueID: 811181205
+    locked: 0
+  - name: 
+    uniqueID: 1753564319
+    locked: 0
+  - name: 
+    uniqueID: 3718609453
+    locked: 0
+  - name: 
+    uniqueID: 4290458471
+    locked: 0
+  - name: 
+    uniqueID: 3092928255
+    locked: 0

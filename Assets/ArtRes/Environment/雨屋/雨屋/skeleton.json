@@ -1,0 +1,63 @@
+{
+"skeleton": {
+	"hash": "txUjfgniy8R+faPG2QPd+aKsACM",
+	"spine": "3.8",
+	"x": -652.5,
+	"y": -567.5,
+	"width": 1305,
+	"height": 1135,
+	"images": "../../../PSD/images/雨屋/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "雨/雨1", "bone": "root", "attachment": "雨/雨1" },
+	{ "name": "雨/雨2", "bone": "root", "attachment": "雨/雨2" },
+	{ "name": "雨/雨3", "bone": "root", "attachment": "雨/雨3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"雨/雨1": {
+				"雨/雨1": { "width": 1305, "height": 1039 }
+			},
+			"雨/雨2": {
+				"雨/雨2": { "width": 1269, "height": 1115 }
+			},
+			"雨/雨3": {
+				"雨/雨3": { "width": 1303, "height": 1135 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"雨/雨1": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			},
+			"雨/雨2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			},
+			"雨/雨3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

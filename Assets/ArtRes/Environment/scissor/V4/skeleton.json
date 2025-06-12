@@ -1,0 +1,145 @@
+{
+"skeleton": {
+	"hash": "ksh14621XXAGXyhBGAwP3JvVcKc",
+	"spine": "3.8",
+	"x": -570.45,
+	"y": -586.58,
+	"width": 1151.04,
+	"height": 1183.92,
+	"images": "../../PSD/images/tool/剪刀/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "scissor_Left", "parent": "root", "length": 419.13, "rotation": -136.57, "x": 10.59, "y": 7.34 },
+	{ "name": "scissor_Right", "parent": "root", "length": 506.97, "rotation": -41.51, "x": -0.45, "y": 3.42 }
+],
+"slots": [
+	{ "name": "right", "bone": "scissor_Right", "attachment": "right" },
+	{ "name": "left", "bone": "scissor_Left", "attachment": "left" }
+],
+"skins": [
+	{
+		"name": "green",
+		"attachments": {
+			"left": {
+				"left": {
+					"name": "绿色",
+					"x": 1.69,
+					"y": -1.6,
+					"scaleX": -1,
+					"rotation": 136.57,
+					"width": 1140,
+					"height": 1180
+				}
+			},
+			"right": {
+				"right": { "name": "绿色", "x": 0.67, "y": 0.59, "rotation": 41.51, "width": 1140, "height": 1180 }
+			}
+		}
+	},
+	{
+		"name": "pre",
+		"attachments": {
+			"left": {
+				"left": { "name": "剪刀2", "x": -120.76, "y": 245.41, "rotation": 136.57, "width": 1871, "height": 1167 }
+			},
+			"right": {
+				"right": { "name": "剪刀1", "x": -134.02, "y": -244.72, "rotation": 41.51, "width": 1871, "height": 1167 }
+			}
+		}
+	},
+	{
+		"name": "violet",
+		"attachments": {
+			"left": {
+				"left": { "name": "紫色", "scaleX": -1, "rotation": 136.57, "width": 1140, "height": 1180 }
+			},
+			"right": {
+				"right": { "name": "紫色", "rotation": 41.51, "width": 1140, "height": 1180 }
+			}
+		}
+	},
+	{
+		"name": "white",
+		"attachments": {
+			"left": {
+				"left": { "name": "白绿色", "scaleX": -1, "rotation": 136.57, "width": 1140, "height": 1180 }
+			},
+			"right": {
+				"right": { "name": "白绿色", "rotation": 41.51, "width": 1140, "height": 1180 }
+			}
+		}
+	}
+],
+"events": {
+	"CutOver": {},
+	"DetectAndAttack": {},
+	"StartCut": {},
+	"TwineOver": {}
+},
+"animations": {
+	"cut": {
+		"bones": {
+			"scissor_Right": {
+				"rotate": [
+					{ "angle": 15.55, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": 25.26, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5667, "angle": -43.02, "curve": "stepped" },
+					{ "time": 1, "angle": -43.02, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.3, "angle": 15.55 }
+				]
+			},
+			"scissor_Left": {
+				"rotate": [
+					{ "angle": -14.98, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -24.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5667, "angle": 44.24, "curve": "stepped" },
+					{ "time": 1, "angle": 44.24, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.3, "angle": -14.98 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "StartCut" },
+			{ "time": 0.5333, "name": "DetectAndAttack", "string": "detectAndAttack" },
+			{ "time": 2.3, "name": "CutOver" }
+		]
+	},
+	"idle": {
+		"bones": {
+			"scissor_Right": {
+				"rotate": [
+					{ "angle": 15.55 }
+				]
+			},
+			"scissor_Left": {
+				"rotate": [
+					{ "angle": -14.98 }
+				]
+			}
+		}
+	},
+	"twine": {
+		"bones": {
+			"scissor_Right": {
+				"rotate": [
+					{ "angle": 15.55, "curve": 0, "c2": 0.37, "c3": 0.75 },
+					{ "time": 0.1333, "angle": 23.13, "curve": 0, "c2": 0.37, "c3": 0.75 },
+					{ "time": 0.2333, "angle": 15.55 }
+				]
+			},
+			"scissor_Left": {
+				"rotate": [
+					{ "angle": -14.98, "curve": 0, "c2": 0.37, "c3": 0.75 },
+					{ "time": 0.1333, "angle": -25.99, "curve": 0, "c2": 0.37, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -14.98 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2333, "name": "TwineOver" }
+		]
+	}
+}
+}

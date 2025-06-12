@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ColorScissor
+  m_Controller: {fileID: 9100000, guid: 83e9edfbbb766234d8aa12aad2debe88, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 5959022324591006015, guid: 83e9edfbbb766234d8aa12aad2debe88, type: 2}
+    m_OverrideClip: {fileID: -690640309711375194, guid: 4d8afbc56fa671748af1f2be15d01bdd, type: 2}
+  - m_OriginalClip: {fileID: -346845696304800654, guid: 83e9edfbbb766234d8aa12aad2debe88, type: 2}
+    m_OverrideClip: {fileID: -4649796132597378453, guid: 4d8afbc56fa671748af1f2be15d01bdd, type: 2}
+  - m_OriginalClip: {fileID: -1715334276745500194, guid: 83e9edfbbb766234d8aa12aad2debe88, type: 2}
+    m_OverrideClip: {fileID: -3731373149907164987, guid: 4d8afbc56fa671748af1f2be15d01bdd, type: 2}

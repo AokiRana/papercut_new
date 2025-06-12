@@ -1,0 +1,41 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 0, 603
+  size: 651, 637
+  orig: 651, 637
+  offset: 0, 0
+  index: -1
+头发
+  rotate: false
+  xy: 0, 420
+  size: 203, 181
+  orig: 203, 181
+  offset: 0, 0
+  index: -1
+头发1
+  rotate: 270
+  xy: 372, 28
+  size: 1198, 867
+  orig: 1198, 867
+  offset: 0, 0
+  index: -1
+眼睛1
+  rotate: false
+  xy: 418, 409
+  size: 115, 192
+  orig: 115, 192
+  offset: 0, 0
+  index: -1
+眼睛2
+  rotate: false
+  xy: 484, 215
+  size: 115, 192
+  orig: 115, 192
+  offset: 0, 0
+  index: -1

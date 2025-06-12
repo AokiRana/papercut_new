@@ -1,0 +1,49 @@
+{
+"skeleton": {
+	"hash": "VFc4MzPGp85lkwsAIrgulFvGmzI",
+	"spine": "3.8",
+	"x": -345,
+	"y": -3.5,
+	"width": 658,
+	"height": 612,
+	"images": "../../../PSD/images/开头场景/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "开头_操作提示/RC+A", "parent": "root", "length": 331.28, "rotation": -90.27, "x": -12.54, "y": 369.95 }
+],
+"slots": [
+	{ "name": "skin", "bone": "开头_操作提示/RC+A", "attachment": "skin" }
+],
+"skins": [
+	{
+		"name": "RC+A",
+		"attachments": {
+			"skin": {
+				"skin": { "name": "开头_操作提示/RC+A", "x": 67.46, "y": -3.14, "rotation": 90.27, "width": 658, "height": 612 }
+			}
+		}
+	},
+	{
+		"name": "RC+D",
+		"attachments": {
+			"skin": {
+				"skin": { "name": "开头_操作提示/RC+D", "x": 67.46, "y": -3.14, "rotation": 90.27, "width": 658, "height": 612 }
+			}
+		}
+	}
+],
+"animations": {
+	"show": {
+		"bones": {
+			"开头_操作提示/RC+A": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "y": -606.62 }
+				]
+			}
+		}
+	}
+}
+}
